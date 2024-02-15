@@ -1,0 +1,16 @@
+apimServiceName: ausazinnbwgapim02
+namedValues:
+  - name: prod
+    properties:
+      displayName: prod
+      value: "https://www.search2.com"
+  - name: mysecretvalue
+    properties:
+      displayName: mysecretvalue
+      keyVault:
+        identityClientId: ${{ secrets.AZURE_CLIENT_ID }}
+        secretIdentifier: ${{ secrets.AZURE_CLIENT_SECRET }}
+loggers:
+diagnostics:
+backends:
+apis:
