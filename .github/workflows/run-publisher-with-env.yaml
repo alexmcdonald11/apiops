@@ -161,7 +161,9 @@ jobs:
           Write-Information "Downloading publisher..."
           $publisherFileName = "publisher.linux-x64"
           $publisherFinalFileName = "publisher"
-          Write-Host 'Looking up Function Connectors'
+          Write-Information 'CHECKS!'
+          Write-Information "${{ runner.os }}"
+          Write-Information "${{ runner.arch }}"
           if("${{ runner.os }}" -like "*win*"){
             $publisherFileName = "publisher.win-x64.exe"
             $publisherFinalFileName = "publisher.exe"
