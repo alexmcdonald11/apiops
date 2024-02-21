@@ -17,7 +17,10 @@ This tool relies on github environments so the repo must be a part of an **organ
 
 1. Assuming two APIM environments (dev & prod), we need to create a github environment for each.
 2. For each environment create and fill in the following secrets (use the Azure CLI to generate).
-     - 
+        - API_MANAGEMENT_SERVICE_NAME
+        - AZURE_CLIENT_ID
+        - AZURE_CLIENT_SECRET
+        - 
 
 
 # Usage
