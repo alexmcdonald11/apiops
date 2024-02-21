@@ -11,5 +11,16 @@ Please bear in mind that APIOPS is designed to facilitate the promotion of chang
 
 ![ApiOps](https://github.com/alexmcdonald11/apiops/assets/141607968/91660485-9fe6-47ed-8d2a-7be2ef5a6836)
 
-# Method
+# Setup
+
+This tool relies on github environments so the repo must be a part of an **organizational account** or made **public** in order to use them.
+
+1. Assuming two APIM environments (dev & prod), we need to create a github environment for each.
+2. For each environment create and fill in the following secrets (use the Azure CLI to generate).
+     - 
+
+
+# Usage
+
+
 
