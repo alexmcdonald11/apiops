@@ -16,14 +16,21 @@ Please bear in mind that APIOPS is designed to facilitate the promotion of chang
 This tool relies on github environments so the repo must be a part of an **organizational account** or made **public** in order to use them.
 
 1. Assuming two APIM environments (dev & prod), we need to create a github environment for each.
-2. For each environment create and fill in the following secrets (use the Azure CLI to generate).
-        - API_MANAGEMENT_SERVICE_NAME
-        - AZURE_CLIENT_ID
-        - AZURE_CLIENT_SECRET
-        - 
+2. For each environment create and fill in the following secrets (use the Azure CLI to generate): API_MANAGEMENT_SERVICE_NAME, AZURE_CLIENT_ID, AZURE_CLIENT_SECRET, AZURE_RESOURCE_GROUP_NAME, AZURE_SUBSCRIPTION_ID, AZURE_TENANT_ID.
+3. Configure appropriate protection rules for higher environment.
+4. Create a configuration.prod.yaml file with the named higher environment instance.
+
+A comprehensive guide can be found at: https://github.com/Azure/apiops/tree/main/docs/apiops/0-labPrerequisites
 
 
 # Usage
+
+1. Log in to the dev APIM instance and make required changes.
+2. Log into github repository, go to actions and select Run-Extractor
+3. Run workflow with default options
+4. Approve / Merge auto-generated PR
+5. Approve production deployment
+6. Verify changes have propegated to prod
 
 
 
