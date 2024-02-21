@@ -9,5 +9,5 @@ APIOps applies the concepts of DevOps to Azure API Management. This enables ever
 
 Please bear in mind that APIOPS is designed to facilitate the promotion of changes across different Azure API Management (APIM) instances. While the animation below illustrates changes within the same instance, it's important to note that you can effortlessly apply your modifications across various Azure APIM instances using the supported configuration system. We advise taking some time to explore the wiki and documentation to grasp the functioning of configuration overrides when promoting changes across different environments.
 
-![image](https://github.com/alexmcdonald11/apiops/assets/141607968/65472613-ce45-47e9-b46e-7a911facdfb0)
+![ApiOps](https://github.com/alexmcdonald11/apiops/assets/141607968/91660485-9fe6-47ed-8d2a-7be2ef5a6836)
 
