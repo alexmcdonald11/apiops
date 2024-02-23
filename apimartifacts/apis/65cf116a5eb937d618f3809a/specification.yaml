@@ -1,6 +1,6 @@
 openapi: 3.0.1
 info:
-  title: Test API10
+  title: System Aggregate - SmartRecruiters - Internal
   version: '1.0'
 servers:
   - url: https://ausazinnbwgapim01.azure-api.net/echo-clone-clone-clone-clone-clone-clone-clone-clone-clone-clone

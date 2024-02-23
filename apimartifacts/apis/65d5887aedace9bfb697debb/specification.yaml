@@ -1,6 +1,6 @@
 openapi: 3.0.1
 info:
-  title: BrandNewAPI
+  title: System Events - SmartRecruiters - External
   version: '1.0'
 servers:
   - url: https://ausazinnbwgapim01.azure-api.net/echo-clone-clone-clone-clone-clone-clone-clone-clone-clone-clone-clone

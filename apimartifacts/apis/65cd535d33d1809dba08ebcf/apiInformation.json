@@ -2,7 +2,7 @@
   "properties": {
     "apiRevision": "1",
     "authenticationSettings": {},
-    "displayName": "Test API2",
+    "displayName": "System Read Proxy - SmartRecruiters - Internal",
     "isCurrent": true,
     "path": "echo-clone-clone",
     "protocols": [
