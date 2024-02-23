@@ -1,6 +1,6 @@
 {
   "properties": {
-    "displayName": "testNameValue",
+    "displayName": "testDev",
     "secret": false,
     "tags": [],
     "value": "this is a test"
