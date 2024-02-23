@@ -1,6 +1,6 @@
 apimServiceName: ausazinnbwgapim02
 namedValues:
-  - name: testNameValue
+  - name: testnv
     properties:
       displayName: testProd
       value: "https://www.search2.com"
