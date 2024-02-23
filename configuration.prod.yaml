@@ -1,4 +1,9 @@
 apimServiceName: ausazinnbwgapim02
+namedValues:
+  - name: testNameValue
+    properties:
+      displayName: testProd
+      value: "https://www.search2.com"
 loggers:
 diagnostics:
 backends:
