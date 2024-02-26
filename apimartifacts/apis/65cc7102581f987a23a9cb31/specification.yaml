@@ -1,6 +1,6 @@
 openapi: 3.0.1
 info:
-  title: API Type - Backend System - Consumer - Process - Entity
+  title: <API Type> - <Backend System> - <Consumer> - <Process> - <Entity>
   version: '1.0'
 servers:
   - url: https://ausazinnbwgapim01.azure-api.net/echo-clone

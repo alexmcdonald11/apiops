@@ -2,7 +2,7 @@
   "properties": {
     "apiRevision": "1",
     "authenticationSettings": {},
-    "displayName": "API Type - Backend System - Consumer - Process - Entity",
+    "displayName": "\u003CAPI Type\u003E - \u003CBackend System\u003E - \u003CConsumer\u003E - \u003CProcess\u003E - \u003CEntity\u003E",
     "isCurrent": true,
     "path": "echo-clone",
     "protocols": [
