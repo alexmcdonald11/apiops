@@ -1,10 +1,9 @@
 
 # APIs
 
-## Convention
+## Display Name
 
-### Display Name
-
+### Convention
 <API Type> - <Backend System/Consumer?> - <Process?> - <Entity?> - <Internet Facing or Not>
 
 API Type – Mandatory for all API Names
