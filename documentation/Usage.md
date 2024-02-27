@@ -6,8 +6,6 @@ Log into the development APIM instance and create or update a component:
 
 Once your changes have been made, navigate to the GitHub repository, click on 'Actions'. On the left hand side, select the 'Run - Extractor' option. This will extract the configuraton changes you've made in APIM into the a new auto-generated branch in the repository: 
 
-![image](https://github.com/alexmcdonald11/apiops/assets/141607968/73044c74-c05d-4847-ba60-a85bb302a2a2)
-
 ![image](https://github.com/alexmcdonald11/apiops/assets/141607968/a5ca4207-a766-4f4f-a047-5577258323bf)
 
 
