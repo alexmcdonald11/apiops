@@ -2,13 +2,13 @@
   "properties": {
     "apiRevision": "1",
     "authenticationSettings": {},
-    "displayName": "Data Read - Employee - Internal",
+    "description": "",
+    "displayName": "System Read - SuccessFactors - Employee Central - Internal",
     "isCurrent": true,
-    "path": "echo-clone-clone-clone",
+    "path": "internal/sysrd-sfac-employeeCentral-int/v1",
     "protocols": [
       "https"
     ],
-    "serviceUrl": "http://echoapi.cloudapp.net/api",
     "subscriptionKeyParameterNames": {
       "header": "Ocp-Apim-Subscription-Key",
       "query": "subscription-key"

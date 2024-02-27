@@ -2,13 +2,13 @@
   "properties": {
     "apiRevision": "1",
     "authenticationSettings": {},
-    "displayName": "Data Read - Employee - Internal",
+    "description": "",
+    "displayName": "Data Read - Employee - External",
     "isCurrent": true,
-    "path": "echo-clone-clone-clone",
+    "path": "external/dtrd-emp-ext/v1",
     "protocols": [
       "https"
     ],
-    "serviceUrl": "http://echoapi.cloudapp.net/api",
     "subscriptionKeyParameterNames": {
       "header": "Ocp-Apim-Subscription-Key",
       "query": "subscription-key"
