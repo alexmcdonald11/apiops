@@ -38,21 +38,21 @@ When deploying APIM artifacts across environments, it's common to maintain a set
 
 To create an environmental override for one of these values, add a record to the environment configuration file ie: configuration.prod.yaml. For example, to override a named value [nv--server-123] so that it's value is [server-dev] by default and [server-prod] in production, create a named value in the dev APIM instance with the default value and then create a new record in the configuration.prod.yaml file under named values.
 
-'''
+```
 namedValues:
   - name: nv--server-123
     properties:
       displayName: nv--server-123
       value: "server-prod"
-'''
+```
 
 To reference a key vault secret use:
 
-'''
+```
 - name: mysecretvalue
     properties:
       displayName: mysecretvalue
       keyVault:
         identityClientId: [identity client id goes here]
         secretIdentifier: [your url here]
-'''
+```
