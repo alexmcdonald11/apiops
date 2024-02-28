@@ -40,7 +40,7 @@ Entity – Only applicable for Data or may be System APIs
 ## API URL Suffix
 
 ### Convention
-/<Internet Facing or Not>/<API Name>/<version>
+"/<Internet Facing or Not>/<API Name>/<version>"
 
 ### Examples
 
