@@ -8,11 +8,13 @@ Once your changes have been made, navigate to the GitHub repository, click on 'A
 
 ![image](https://github.com/alexmcdonald11/apiops/assets/141607968/a5ca4207-a766-4f4f-a047-5577258323bf)
 
+---
 
 ![image](https://github.com/alexmcdonald11/apiops/assets/141607968/34f854f3-b849-4126-9d3b-92e2720bf34b)
 
-![image](https://github.com/alexmcdonald11/apiops/assets/141607968/e0344849-47cd-48f1-911a-cbf04dd6267e)
+---
 
+![image](https://github.com/alexmcdonald11/apiops/assets/141607968/e0344849-47cd-48f1-911a-cbf04dd6267e)
 
 
 The process will then automatically create a pull request for the new branch to be merged into the main branch:
@@ -24,7 +26,11 @@ Once the PR has been completed, the action workflow will deploy the artifacts in
 
 ![image](https://github.com/alexmcdonald11/apiops/assets/141607968/c5bb55ce-9957-41ef-b4b9-6cd988182b9f)
 
+---
+
 ![image](https://github.com/alexmcdonald11/apiops/assets/141607968/0d89552f-0e79-4fd9-a40e-a270e22cbc93)
+
+---
 
 ![image](https://github.com/alexmcdonald11/apiops/assets/141607968/5c3dc0d3-df6b-4958-a11b-b3eafa3886f2)
 
