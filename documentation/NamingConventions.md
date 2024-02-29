@@ -35,7 +35,7 @@ Examples:
 
 ### API URL Suffix
 
-Convention: \/<Internet Facing or Not>/<API Name>/<version>
+Convention: <Internet Facing or Not> / <API Name> / <version>
 
 Examples: 
 
