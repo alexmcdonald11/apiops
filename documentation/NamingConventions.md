@@ -76,13 +76,14 @@ Examples: * /candidate/1234
 ## Types of APIs
 
 ### API
-System Events
-Short Identifier: sysevents
-Description: An API Provider that acts as an intermediary interface to receive events from another system and then publish them to message broker to be processed by other components.
+* System Events
+* Short Identifier: sysevents
+* Description: An API Provider that acts as an intermediary interface to receive events from another system and then publish them to message broker to be processed by other components.
 
+<br>
+<br>
 
-### API
-System Read Proxy
-Short Identifier: sysrdpxy
-Description: An API Provider that acts as an intermediary interface that provides read access to another system’s API as it is, for the sake of standardisation and single point of entry. There is no transformation of data in such APIs.
+* System Read Proxy
+* Short Identifier: sysrdpxy
+* Description: An API Provider that acts as an intermediary interface that provides read access to another system’s API as it is, for the sake of standardisation and single point of entry. There is no transformation of data in such APIs.
 
