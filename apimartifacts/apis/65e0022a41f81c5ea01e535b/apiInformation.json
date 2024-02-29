@@ -1,0 +1,19 @@
+{
+  "properties": {
+    "apiRevision": "1",
+    "authenticationSettings": {},
+    "description": "",
+    "displayName": "System Read Proxy - SmartRecruiters - External",
+    "isCurrent": true,
+    "path": "external/dtrd-emp-ext/v1-clone",
+    "protocols": [
+      "https"
+    ],
+    "serviceUrl": "https://ausazinnbwgapim01.azure-api.net/external/dtrd-emp-ext/v1",
+    "subscriptionKeyParameterNames": {
+      "header": "Ocp-Apim-Subscription-Key",
+      "query": "subscription-key"
+    },
+    "subscriptionRequired": true
+  }
+}
