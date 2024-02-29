@@ -3,7 +3,7 @@
 
 ### Display Name
 
-Convention: <API Type> - <Backend System/Consumer?> - <Process?> - <Entity?> - <Internet Facing or Not>
+Convention: API Type - Backend System/Consumer? - Process? - Entity? - Internet Facing or Not
 
 * API Type – Mandatory for all API Names
 * Backend System – Only applicable for System APIs
@@ -25,7 +25,7 @@ Examples:
 
 ### API Name
 
-Convention: <apiType>-<system?>-<domain?>-<entity?>
+Convention: apiType-system?-domain?-entity?
 Examples: 
 
 * sysevents-srec
@@ -35,7 +35,7 @@ Examples:
 
 ### API URL Suffix
 
-Convention: <Internet Facing or Not> / <API Name> / <version>
+Convention: Internet Facing or Not / API Name / version
 
 Examples: 
 
@@ -46,7 +46,7 @@ Examples:
 ### Operation Display Name
 
 Convention: 
-<Relevant Verb> <Entity> <Relevant Context>
+Relevant Verb Entity Relevant Context
 
 Examples: 
 
@@ -58,7 +58,7 @@ Examples:
 
 ### Operation Name
 
-Convention: <relevantVerb>-<entity>-<relevantContext>
+Convention: relevantVerb-entity-relevantContext
 
 Examples: 
 
@@ -80,49 +80,49 @@ System Events
 * Short Identifier: sysevents
 * Description: An API Provider that acts as an intermediary interface to receive events from another system and then publish them to message broker to be processed by other components.
 
-<br>
+br
 
 System Read Proxy
 * Short Identifier: sysrdpxy
 * Description: An API Provider that acts as an intermediary interface that provides read access to another system’s API as it is, for the sake of standardisation and single point of entry. There is no transformation of data in such APIs.
 
-<br>
+br
 
 System Write Proxy
 * Short Identifier: syswrtpxy
 * Description: An API that acts as an intermediary interface that provides write access to another system’s API as it is, for the sake of standardisation and single point of entry.
 
-<br>
+br
 
 System Aggregate
 * Short Identifier: sysagg
 * Description: An API that provides access to aggregated data or functionality within a system. It accepts an input, enriches it by interacting with other systems and provides an aggregated output.
 
-<br>
+br
 
 System Read
 * Short Identifier: sysrd
 * Description: An API that acts as an intermediary interface that provides read access to a system’s data/functionality. It does not need to represent the end system API as it is and can be used to cater to a common information model if required.
 
-<br>
+br
 
 System Write
 * Short Identifier: syswrt
 * Description: An API that acts as an intermediary interface that provides write access to a system’s data. It does not need to represent the end system API as it is and can be used to cater to a common information model if required.
 
-<br>
+br
 
 Data Read
 * Short Identifier: datrd
 * Description: An API that provides read access to a business data entity following a common information model collating data from multiple system or system APIs.
 
-<br>
+br
 
 Process
 * Short Identifier: prcs
 * Description: An API that exposes the functionality required to service a business process. Usually, a Process API orchestrates one or more calls to various System APIs to fulfil end to end process functionality.
 
-<br>
+br
 
 Consumer
 * Short Identifier: cnsr
